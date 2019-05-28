@@ -1,8 +1,4 @@
-<?php
-include 'global/config.php';
-include 'globa/conexion.php';
-include 'carrito.php'
-?>
+
 <!DOCTYPE html>
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
@@ -17,7 +13,7 @@ include 'carrito.php'
 	<meta name="keywords" content="free html5, free template, free bootstrap, free website template, html5, css3, mobile first, responsive" />
 	<meta name="author" content="FreeHTML5.co" />
 
- 
+  
   	<!-- Facebook and Twitter integration -->
 	<meta property="og:title" content=""/>
 	<meta property="og:image" content=""/>
@@ -56,6 +52,7 @@ include 'carrito.php'
 
 	</head>
 	<body>
+
 	<div id="fh5co-page">
 		<a href="#" class="js-fh5co-nav-toggle fh5co-nav-toggle"><i></i></a>
 		<aside id="fh5co-aside" role="complementary" class="border js-fullheight">
@@ -63,10 +60,8 @@ include 'carrito.php'
 			<h1 id="fh5co-logo"><a href="index.php"><img src="images/logo.jpeg" alt="Free HTML5 Bootstrap Website Template" height="180px" width="170px"></a></h1>
 			<nav id="fh5co-main-menu" role="navigation">
 				<ul>
-					<li class="fh5co-active"><a href="index.php">Inicio</a></li>
-					<li class="fh5co-active1"><a href="sesion.html">Iniciar sesion</a></li>
-					<li class="fh5co-active1"><a href="registro.html">Registrarse</a></li>
-					<li><a href="portfolio.php">Productos</a></li>
+					<li><a href="index.php">Inicio</a></li>
+					<li class="fh5co-active"><a href="portfolio.php">Productos</a></li>
 					<li class="fh5co-active"><a href="carrito.php">Carrito (0)</a></li>
 					<li><a href="contact.html">Contacto</a></li>
 				</ul>
@@ -78,6 +73,7 @@ include 'carrito.php'
 					<li><a href="#"><i class="icon-facebook"></i></a></li>
 					<li><a href="#"><i class="icon-twitter"></i></a></li>
 					<li><a href="#"><i class="icon-instagram"></i></a></li>
+
 				</ul>
 			</div>
 
@@ -87,9 +83,8 @@ include 'carrito.php'
 			
 
 			<div class="fh5co-narrow-content">
-				<h2 class="fh5co-heading animate-box" data-animate-effect="fadeInLeft">Productos <span>Revisa nuestro inventario</span></h2>
+				<h2 class="fh5co-heading animate-box" data-animate-effect="fadeInLeft">Productos</span></h2>
 				<div class="row animate-box" data-animate-effect="fadeInLeft">
-				
 					<div class="col-md-4 col-sm-6 col-xs-6 col-xxs-12 work-item">
 						<a href="work.html">
 							<img src="images/pal_uvas.jpg" alt="Free HTML5 Website Template by FreeHTML5.co" class="img-responsive">
@@ -103,7 +98,35 @@ include 'carrito.php'
 							</button>
 						</a>
 					</div>
+					<div class="col-md-4 col-sm-6 col-xs-6 col-xxs-12 work-item">
+						<a href="work.html">
+							<img src="images/producto1.jpeg" alt="Free HTML5 Website Template by FreeHTML5.co" class="img-responsive">
+							<h3 class="fh5co-work-title">Nombre del producto</h3>
+							<h5 class= "card-title">$300.00</h5>
+							<button class="btn btn-primary"
+							name="btnAccion"
+							value= "Agregar"
+							type="submit" >
+							Agregar al carrito
+							</button>
+							
+						</a>
+					</div>
 					<div class="clearfix visible-sm-block"></div>
+					<div class="col-md-4 col-sm-6 col-xs-6 col-xxs-12 work-item">
+						<a href="work.html">
+							<img src="images/pal_mar.jpg" alt="Free HTML5 Website Template by FreeHTML5.co" class="img-responsive">
+							<h3 class="fh5co-work-title">Nombre del producto</h3>
+							<h5 class= "card-title">$300.00</h5>
+							<button class="btn btn-primary"
+							name="btnAccion"
+							value= "Agregar"
+							type="submit" >
+							Agregar al carrito
+							</button>
+						</a>
+					</div>
+					<div class="clearfix visible-md-block"></div>
 					<div class="col-md-4 col-sm-6 col-xs-6 col-xxs-12 work-item">
 						<a href="work.html">
 							<img src="images/lab_ternura.jpg" alt="Free HTML5 Website Template by FreeHTML5.co" class="img-responsive">
@@ -117,7 +140,35 @@ include 'carrito.php'
 							</button>
 						</a>
 					</div>
-					<div class="clearfix visible-md-block"></div>
+					<div class="clearfix visible-sm-block"></div>
+					<div class="col-md-4 col-sm-6 col-xs-6 col-xxs-12 work-item">
+						<a href="work.html">
+							<img src="images/producto2.jpeg" alt="Free HTML5 Website Template by FreeHTML5.co" class="img-responsive">
+							<h3 class="fh5co-work-title">Nombre del producto</h3>
+							<h5 class= "card-title">$300.00</h5>
+							<button class="btn btn-primary"
+							name="btnAccion"
+							value= "Agregar"
+							type="submit" >
+							Agregar al carrito
+							</button>
+						</a>
+					</div>
+					<div class="col-md-4 col-sm-6 col-xs-6 col-xxs-12 work-item">
+						<a href="work.html">
+							<img src="images/lab_dinosaurio.jpg" alt="Free HTML5 Website Template by FreeHTML5.co" class="img-responsive">
+							<h3 class="fh5co-work-title">Nombre producto</h3>
+							<h5 class= "card-title">$300.00</h5>
+							<button class="btn btn-primary"
+							name="btnAccion"
+							value= "Agregar"
+							type="submit" >
+							Agregar al carrito
+							</button>
+						</a>
+					</div>
+					<div class="clearfix visible-md-block visible-sm-block"></div>
+
 					<div class="col-md-4 col-sm-6 col-xs-6 col-xxs-12 work-item">
 						<a href="work.html">
 							<img src="images/som_empire.jpg" alt="Free HTML5 Website Template by FreeHTML5.co" class="img-responsive">
@@ -131,100 +182,63 @@ include 'carrito.php'
 							</button>
 						</a>
 					</div>
+					<div class="col-md-4 col-sm-6 col-xs-6 col-xxs-12 work-item">
+						<a href="work.html">
+							<img src="images/producto3.jpeg" alt="Free HTML5 Website Template by FreeHTML5.co" class="img-responsive">
+							<h3 class="fh5co-work-title">Nombre del producto</h3>
+							<h5 class= "card-title">$300.00</h5>
+							<button class="btn btn-primary"
+							name="btnAccion"
+							value= "Agregar"
+							type="submit" >
+							Agregar al carrito
+							</button>
+						</a>
+					</div>
 					<div class="clearfix visible-sm-block"></div>
-				
-				
-					<div class="clearfix visible-md-block visible-sm-block"></div>
-
-				
-					
-					<div class="clearfix visible-sm-block"></div>
-				
+					<div class="col-md-4 col-sm-6 col-xs-6 col-xxs-12 work-item">
+						<a href="work.html">
+							<img src="images/liq_apapacho.jpg" alt="Free HTML5 Website Template by FreeHTML5.co" class="img-responsive">
+							<h3 class="fh5co-work-title">Nombre del producto</h3>
+							<h5 class= "card-title">$300.00</h5>
+							<button class="btn btn-primary"
+							name="btnAccion"
+							value= "Agregar"
+							type="submit" >
+							Agregar al carrito
+							</button>
+						</a>
+					</div>
 					<div class="clearfix visible-md-block"></div>
 					
 				</div>
 			</div>
-			
-			
-			<div class="fh5co-testimonial" >
-				<div class="fh5co-narrow-content">
-					<div class="owl-carousel-fullwidth animate-box" data-animate-effect="fadeInLeft">
-		            <div class="item">
-		            	<figure>
-		            		<img src="images/producto1.jpeg" alt="Free HTML5 Bootstrap Template" width="150px" height="180px">
-		            	</figure>
-		              	<p class="text-center quote">&ldquo;Top 1 en ventas. &rdquo; <cite class="author">&mdash; </cite></p>
-		            </div>
-		            <div class="item">
-		            	<figure>
-		            		<img src="images/producto2.jpeg" alt="Free HTML5 Bootstrap Template" width="150px" height="180px">
-		            	</figure>
-		              	<p class="text-center quote">&ldquo;Top 2 en ventas. &rdquo;<cite class="author">&mdash;</cite></p>
-		            </div>
-		            <div class="item">
-		            	<figure>
-		            		<img src="images/producto3.jpeg" alt="Free HTML5 Bootstrap Template" width="150px" height="180px">
-		            	</figure>
-		              	<p class="text-center quote">&ldquo;Top 3 en ventas. &rdquo;<cite class="author">&mdash;</cite></p>
-		            </div>
-		          </div>
-				</div>
-			</div>
-
+		
 
 			<div class="fh5co-narrow-content">
-				<h2 class="fh5co-heading animate-box" data-animate-effect="fadeInLeft">Sobre <span>Nosotros</span></h2>
 				<div class="row">
-					<div class="col-md-6">
-						<div class="fh5co-feature animate-box" data-animate-effect="fadeInLeft">
-							<div class="fh5co-icon">
-								<i class="icon-strategy"></i>
+					<div class="col-md-4 animate-box" data-animate-effect="fadeInLeft">
+						<h1 class="fh5co-heading-colored">Start Your Project Now!</h1>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-4 animate-box" data-animate-effect="fadeInLeft">
+						<p class="fh5co-lead">Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+						<p><a href="#" class="btn btn-primary btn-outline">Get Started</a></p>
+					</div>
+					<div class="col-md-7 col-md-push-1">
+						<div class="row">
+							<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
+								<p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.</p>
 							</div>
-							<div class="fh5co-text">
-								<h3>¿Quiénes somos?</h3>
-								<p>Nairobi es una empresa 100% mexicana dedicada al maquillaje, del cual se encarga de diseñar, producir y distribuir su amplia variedad de productos.</p>
+							<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
+								<p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.</p>
 							</div>
 						</div>
 					</div>
-					<div class="col-md-6">
-						<div class="fh5co-feature animate-box" data-animate-effect="fadeInLeft">
-							<div class="fh5co-icon">
-								<i class="icon-telescope"></i>
-							</div>
-							<div class="fh5co-text">
-								<h3>Misión </h3>
-								<p>Ofrecer productos mexicanos para mexicanas, de la más alta calidad logrando que nuestro producto satisfaga las necesidades para cada una de ellas. </p>
-							</div>
-						</div>
-					</div>
-
-					<div class="col-md-6">
-						<div class="fh5co-feature animate-box" data-animate-effect="fadeInLeft">
-							<div class="fh5co-icon">
-								<i class="icon-circle-compass"></i>
-							</div>
-							<div class="fh5co-text">
-								<h3>Visión</h3>
-								<p>Para 2020 queremos ser la empresa líder de maquillaje en México y poner en alto el nombre de nuestro país a nivel mundial dentro del mundo del maquillaje. </p>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-6">
-						<div class="fh5co-feature animate-box" data-animate-effect="fadeInLeft">
-							<div class="fh5co-icon">
-								<i class="icon-tools-2"></i>
-							</div>
-							<div class="fh5co-text">
-								<h3>Valores</h3>
-								<p>Nairobi se preocupa por todos los seres vivos y manejamos el respeto como nuestro principal valor, por lo que somos una empresa 100% libre de maltrato animal.
-									El compromiso con cada producto y cliente es lo que nos caracteriza como una empresa entregada.									
-									La confianza es algo que queremos ganar en cada una de nuestras clientas, es importante que ellas confíen en nosotros</p>
-							</div>
-						</div>
-					</div>
-
 				</div>
 			</div>
+
 		</div>
 	</div>
 
@@ -242,6 +256,7 @@ include 'carrito.php'
 	<script src="js/jquery.waypoints.min.js"></script>
 	<!-- Counters -->
 	<script src="js/jquery.countTo.js"></script>
+	
 	
 	
 	<!-- MAIN JS -->

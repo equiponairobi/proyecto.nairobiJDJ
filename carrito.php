@@ -1,3 +1,24 @@
+<?php 
+    $mensaje="";
+
+    if(isset($_POST['btnAccion'])){
+        switch($_POST['btnAccion']){
+			case 'Agregar' :
+
+				if(is_numeric(openssl_decrypt($_POST['id'], COD,KEY ))){
+					$ID=openssl_decrypt($_POST['id'], COD,KEY );
+					$mensaje="OK ID correcto".$ID;
+				
+				}else{
+					$mensaje="oops ID incorrecto".$ID;
+				}
+
+			break;
+
+        }
+    }
+?>
+
 <!DOCTYPE html>
 
 <!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
@@ -10,7 +31,7 @@
 	<meta name="keywords" content="free html5, free template, free bootstrap, free website template, html5, css3, mobile first, responsive" />
 	<meta name="author" content="FreeHTML5.co" />
 
- 
+
 
   	<!-- Facebook and Twitter integration -->
 	<meta property="og:title" content=""/>
@@ -59,8 +80,8 @@
 			<nav id="fh5co-main-menu" role="navigation">
 				<ul>
 					<li><a href="index.php">Inicio</a></li>
-					<li><a href="portfolio.php">Productos</a></li>
-					<li class="fh5co-active"><a href="carrito.html">Carrito (0)</a></li>
+                    <li><a href="portfolio.php">Productos</a></li>
+                    <li class="fh5co-active"><a href="carrito.html">Carrito (0)</a></li>
 					<li class="fh5co-active"><a href="contact.html">Contacto</a></li>
 				</ul>
 			</nav>
@@ -76,46 +97,7 @@
 
 		</aside>
 
-		<div id="fh5co-main">
-
 		
-			<div class="fh5co-narrow-content animate-box" data-animate-effect="fadeInLeft">
-				
-				<div class="row">
-					<div class="col-md-4">
-                        <h1>Registro</h1>
-                        <h3>Favor de ingresar los siguientes datos:</h3>
-					</div>
-				</div>
-				<form action="">
-					<div class="row">
-						<div class="col-md-12">
-							<div class="row">
-								<div class="col-md-6">
-									<div class="form-group">
-										<input type="text" class="form-control" placeholder="Nombre">
-									</div>
-									<div class="form-group">
-										<input type="text" class="form-control" placeholder="Apellido paterno">
-									</div>
-									<div class="form-group">
-										<input type="text" class="form-control" placeholder="Apellido materno">
-                                    </div>
-                                    <div class="form-group">
-										<input type="text" class="form-control" placeholder="Correo electronico">
-                                    </div>
-                                    <div class="form-group">
-										<input type="text" class="form-control" placeholder="Contraseña">
-                                    </div>
-                                    <input type="submit" value="Enviar">
-								</div>
-								
-								
-							</div>
-						</div>
-						
-					</div>
-                </form>
                 
                
 				
