@@ -1,7 +1,7 @@
 <?php
 include 'global/config.php';
-include 'globa/conexion.php';
-include 'carrito.php'
+include 'global/conexion.php';
+//include 'carrito.php';
 ?>
 <!DOCTYPE html>
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
@@ -60,11 +60,18 @@ include 'carrito.php'
 		<a href="#" class="js-fh5co-nav-toggle fh5co-nav-toggle"><i></i></a>
 		<aside id="fh5co-aside" role="complementary" class="border js-fullheight">
 
-			<h1 id="fh5co-logo"><a href="index.php"><img src="images/nairobi.jpeg" alt="Free HTML5 Bootstrap Website Template" height="180px" width="170px"></a></h1>
+			<h1 id="fh5co-logo"><a href="index.php"><img src="images/nairobi.jpeg"  height="180px" width="170px"></a></h1>
 			<nav id="fh5co-main-menu" role="navigation">
 				<ul>
 					<li class="fh5co-active"><a href="index.php">Inicio</a></li>
 					<li class="fh5co-active1"><a href="sesion.html">Iniciar sesion</a></li>
+	<?php 
+	session_start();
+	if($_SESSION['id'] != 1 && $_SESSION['id'] != 2) {
+	}
+	?>
+	
+
 					<li class="fh5co-active1"><a href="registro.html">Registrarse</a></li>
 					<li><a href="portfolio.php">Productos</a></li>
 					<li class="fh5co-active"><a href="carrito.php">Carrito (0)</a></li>

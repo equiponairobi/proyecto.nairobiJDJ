@@ -7,6 +7,7 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<title>NAIROBI</title>
+	
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="description" content="Free HTML5 Website Template by FreeHTML5.co" />
 	<meta name="keywords" content="free html5, free template, free bootstrap, free website template, html5, css3, mobile first, responsive" />
@@ -72,10 +73,10 @@
 			</nav>
 
 			<div class="fh5co-footer">
-				<p><small>&copy; </span> <span><a href="http://freehtml5.co/" target="_blank"></a> </span> <span> <a href="https://themewagon.com/" target="_blank"></a></span></small></p>
+				
 				<ul>
 					<li><a href=https://www.facebook.com/Nairobi-maquillaje-1039530059578478/?modal=admin_todo_tour target="_blank"><i class="icon-facebook"></i></a></li>
-					<li><a href=https://www.instagram.com/nairobi_maquillaje?igshid=18heknaol85m0" target="_blank"><i class="icon-instagram"></i></a></li>
+					<li><a href=https://www.instagram.com/nairobi_maquillaje?igshid=18heknaol85m0 target="_blank"><i class="icon-instagram"></i></a></li>
 				</ul>
 			</div>
 
@@ -83,39 +84,27 @@
 
 		<div id="fh5co-main">
 
-		
+				
+
+			
 			<div class="fh5co-narrow-content animate-box" data-animate-effect="fadeInLeft">
 				
 				<div class="row">
 					<div class="col-md-4">
-						<h1>Iniciar sesión</h1>
-					</div>
-				</div>
-				<form action="">
-					<div class="row">
-						<div class="col-md-12">
-							<div class="row">
-								<div class="col-md-6">
-									<div class="form-group">
-									
-									</div>
-									<div class="form-group">
-										<input type="text" name="email" class="form-control" placeholder="Correo">
-									</div>
-									<div class="form-group">
-										<input type="password" name="contrasenia" class="form-control" placeholder="Contraseña">
-									</div>
-									<input type="button" value="Enviar" placeholder="Enviar">
-								</div>
-								
-								
-							</div>
-						</div>
 						
 					</div>
-				</form>
-			</div>
+                </div>
+                <div class="fh5co-text">
+                                <h1>DETALLE  LABIALES</h1>
+				<p>Labial en barra de larga duracion que ofrece un color intenso en acabado mate <br> 
+Variedad de colores y texturas encuentra el que mas te guste
+ </p>
 
+
+
+
+							</div>
+				
 		</div>
 	</div>
 
@@ -133,7 +122,9 @@
 	<script src="js/jquery.waypoints.min.js"></script>
 	<!-- Counters -->
 	<script src="js/jquery.countTo.js"></script>
-	
+	<!-- Google Map -->
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCefOgb1ZWqYtj7raVSmN4PL2WkTrc-KyA&sensor=false"></script>
+	<script src="js/google_map.js"></script>
 
 	
 	

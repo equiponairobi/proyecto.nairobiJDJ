@@ -1,19 +1,4 @@
 <?php
- $server="localhost"; 
- $user="root"; 
- $pass=""; 
- $db="bdNairobi"; 
-   
- // connect to postgresql 
-   
- postgresql_connect($server, $user, $pass) or die("Lo siento, no se puede conectar al servidor."); 
- $acentos = $conexion->query("SET NAMES 'UTF8'");
-   
- // select the db 
-   
- mysql_select_db($db) or die("Lo siento, no se puede conectar  a la base de datos."); 
-
+$conn = pg_connect("host=127.0.0.1 port=5432 dbname=nairobi user=nairobi password=nairobi") or die (pg_last_error());
+var_dump($conn);
 ?>
-
-
-  

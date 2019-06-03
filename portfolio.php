@@ -90,7 +90,7 @@
 				<div class="row animate-box" data-animate-effect="fadeInLeft">
 					<div class="col-md-4 col-sm-6 col-xs-6 col-xxs-12 work-item">
 						<a href="work.html">
-							<img src="images/pal_uvas.jpg" alt="Free HTML5 Website Template by FreeHTML5.co" class="img-responsive">
+						<a href="detalle_paleta.php" target="_parent"> <img src="images/pal_uvas.jpg" alt="Free HTML5 Website Template by FreeHTML5.co" class="img-responsive"> </a>
 							<h3 class="fh5co-work-title">Paleta de sombras uvas</h3>
 							<h5 class= "card-title">$300.00</h5>
 							<button class="btn btn-primary2"
@@ -103,7 +103,7 @@
 					</div>
 					<div class="col-md-4 col-sm-6 col-xs-6 col-xxs-12 work-item">
 						<a href="work.html">
-							<img src="images/pal_bosque.jpg" alt="Free HTML5 Website Template by FreeHTML5.co" class="img-responsive">
+<a href="detalle_paleta.php"><img src="images/pal_bosque.jpg" alt="Free HTML5 Website Template by FreeHTML5.co" class="img-responsive"></a>
 							<h3 class="fh5co-work-title"> Paleta de sombras bosque </h3>
 							<h5 class= "card-title">$300.00</h5>
 							<button class="btn btn-primary2"
@@ -118,7 +118,7 @@
 					<div class="clearfix visible-sm-block"></div>
 					<div class="col-md-4 col-sm-6 col-xs-6 col-xxs-12 work-item">
 						<a href="work.html">
-							<img src="images/pal_mar.jpg" alt="Free HTML5 Website Template by FreeHTML5.co" class="img-responsive">
+<a href="detalle_paleta.php"><img src="images/pal_mar.jpg" alt="Free HTML5 Website Template by FreeHTML5.co" class="img-responsive"></a>
 							<h3 class="fh5co-work-title">Paleta de sombras mar</h3>
 							<h5 class= "card-title">$300.00</h5>
 							<button class="btn btn-primary2"
@@ -132,7 +132,7 @@
 					<div class="clearfix visible-md-block"></div>
 					<div class="col-md-4 col-sm-6 col-xs-6 col-xxs-12 work-item">
 						<a href="work.html">
-							<img src="images/pal_caution.jpg" alt="Free HTML5 Website Template by FreeHTML5.co" class="img-responsive">
+<a href="detalle_paleta.php"><img src="images/pal_caution.jpg" alt="Free HTML5 Website Template by FreeHTML5.co" class="img-responsive"></a>
 							<h3 class="fh5co-work-title">Paleta de sombras caution</h3>
 							<h5 class= "card-title">$300.00</h5>
 							<button class="btn btn-primary2"
@@ -145,8 +145,7 @@
 					</div>
 					<div class="clearfix visible-sm-block"></div>
 					<div class="col-md-4 col-sm-6 col-xs-6 col-xxs-12 work-item">
-						<a href="work.html">
-							<img src="images/pal_fuego.jpg" alt="Free HTML5 Website Template by FreeHTML5.co" class="img-responsive">
+					<a href="detalle_paleta.php"><img src="images/pal_fuego.jpg" alt="Free HTML5 Website Template by FreeHTML5.co" class="img-responsive"></a>
 							<h3 class="fh5co-work-title">Paleta de sombras fuego</h3>
 							<h5 class= "card-title">$300.00</h5>
 							<button class="btn btn-primary2"
@@ -159,7 +158,7 @@
 					</div>
 					<div class="col-md-4 col-sm-6 col-xs-6 col-xxs-12 work-item">
 						<a href="work.html">
-							<img src="images/pal_sol.jpg" alt="Free HTML5 Website Template by FreeHTML5.co" class="img-responsive">
+<a href="detalle_paleta.php"><img src="images/pal_sol.jpg" alt="Free HTML5 Website Template by FreeHTML5.co" class="img-responsive"></a>
 							<h3 class="fh5co-work-title">Paleta de sombras sol</h3>
 							<h5 class= "card-title">$300.00</h5>
 							<button class="btn btn-primary2"
@@ -174,7 +173,7 @@
 
 					<div class="col-md-4 col-sm-6 col-xs-6 col-xxs-12 work-item">
 						<a href="work.html">
-							<img src="images/pal_ohlala.jpg" alt="Free HTML5 Website Template by FreeHTML5.co" class="img-responsive">
+<a href="detalle_paleta.php"><img src="images/pal_ohlala.jpg" alt="Free HTML5 Website Template by FreeHTML5.co" class="img-responsive"></a>
 							<h3 class="fh5co-work-title">Paleta de sombras ohlala</h3>
 							<h5 class= "card-title">$300.00</h5>
 							<button class="btn btn-primary2"
@@ -187,7 +186,7 @@
 					</div>
 					<div class="col-md-4 col-sm-6 col-xs-6 col-xxs-12 work-item">
 						<a href="work.html">
-							<img src="images/som_empire.jpg" alt="Free HTML5 Website Template by FreeHTML5.co" class="img-responsive">
+< a href="detalle_sombra.php"><img src="images/som_empire.jpg" alt="Free HTML5 Website Template by FreeHTML5.co" class="img-responsive"></a>
 							<h3 class="fh5co-work-title"> Sombra de ojos empire</h3>
 							<h5 class= "card-title">$130.00</h5>
 							<button class="btn btn-primary2"
@@ -201,7 +200,7 @@
 					<div class="clearfix visible-sm-block"></div>
 					<div class="col-md-4 col-sm-6 col-xs-6 col-xxs-12 work-item">
 						<a href="work.html">
-							<img src="images/som_barbie.jpg" alt="Free HTML5 Website Template by FreeHTML5.co" class="img-responsive">
+<a href="detalle_sombra.php"><img src="images/som_barbie.jpg" alt="Free HTML5 Website Template by FreeHTML5.co" class="img-responsive"></a>
 							<h3 class="fh5co-work-title">Sombra de ojos barbie</h3>
 							<h5 class= "card-title">$130.00</h5>
 							<button class="btn btn-primary2"
@@ -215,7 +214,7 @@
 					<div class="clearfix visible-md-block"></div>
 					<div class="col-md-4 col-sm-6 col-xs-6 col-xxs-12 work-item">
 						<a href="work.html">
-							<img src="images/som_cereza.jpg" alt="Free HTML5 Website Template by FreeHTML5.co" class="img-responsive">
+<a href="detalle_sombra.php"><img src="images/som_cereza.jpg" alt="Free HTML5 Website Template by FreeHTML5.co" class="img-responsive"></a>
 							<h3 class="fh5co-work-title">Sombra de ojos cereza</h3>
 							<h5 class= "card-title">$130.00</h5>
 							<button class="btn btn-primary2"
@@ -229,7 +228,7 @@
 					<div class="clearfix visible-md-block"></div>
 					<div class="col-md-4 col-sm-6 col-xs-6 col-xxs-12 work-item">
 						<a href="work.html">
-							<img src="images/som_cielo.jpg" alt="Free HTML5 Website Template by FreeHTML5.co" class="img-responsive">
+<a href="detalle_sombra.php"><img src="images/som_cielo.jpg" alt="Free HTML5 Website Template by FreeHTML5.co" class="img-responsive"></a>
 							<h3 class="fh5co-work-title">Sombra de ojos cielo</h3>
 							<h5 class= "card-title">$300.00</h5>
 							<button class="btn btn-primary2"
@@ -243,7 +242,7 @@
 					<div class="clearfix visible-md-block"></div>
 					<div class="col-md-4 col-sm-6 col-xs-6 col-xxs-12 work-item">
 						<a href="work.html">
-							<img src="images/som_princesa.jpg" alt="Free HTML5 Website Template by FreeHTML5.co" class="img-responsive">
+<a href="detalle_sombra.php"><img src="images/som_princesa.jpg" alt="Free HTML5 Website Template by FreeHTML5.co" class="img-responsive"></a>
 							<h3 class="fh5co-work-title">Sombra de ojos princesa</h3>
 							<h5 class= "card-title">$130.00</h5>
 							<button class="btn btn-primary2"
@@ -257,7 +256,7 @@
 					<div class="clearfix visible-md-block"></div>
 					<div class="col-md-4 col-sm-6 col-xs-6 col-xxs-12 work-item">
 						<a href="work.html">
-							<img src="images/som_petroleo.jpg" alt="Free HTML5 Website Template by FreeHTML5.co" class="img-responsive">
+<a href="detalle_sombra.php"><img src="images/som_petroleo.jpg" alt="Free HTML5 Website Template by FreeHTML5.co" class="img-responsive"></a>
 							<h3 class="fh5co-work-title">Sombra de ojos petroleo</h3>
 							<h5 class= "card-title">$130.00</h5>
 							<button class="btn btn-primary2"
@@ -271,7 +270,7 @@
 					<div class="clearfix visible-md-block"></div>
 					<div class="col-md-4 col-sm-6 col-xs-6 col-xxs-12 work-item">
 						<a href="work.html">
-							<img src="images/som_sol.jpg" alt="Free HTML5 Website Template by FreeHTML5.co" class="img-responsive">
+<a href="detalle_sombra.php"><img src="images/som_sol.jpg" alt="Free HTML5 Website Template by FreeHTML5.co" class="img-responsive"></a>
 							<h3 class="fh5co-work-title">Sombra de ojos sol</h3>
 							<h5 class= "card-title">$130.00</h5>
 							<button class="btn btn-primary2"
@@ -285,7 +284,7 @@
 					<div class="clearfix visible-md-block"></div>
 					<div class="col-md-4 col-sm-6 col-xs-6 col-xxs-12 work-item">
 						<a href="work.html">
-							<img src="images/som_naranja.jpg" alt="Free HTML5 Website Template by FreeHTML5.co" class="img-responsive">
+<a href="detalle_sombra.php"><img src="images/som_naranja.jpg" alt="Free HTML5 Website Template by FreeHTML5.co" class="img-responsive"></a>
 							<h3 class="fh5co-work-title">Sombra de ojos naranja</h3>
 							<h5 class= "card-title">$130.00</h5>
 							<button class="btn btn-primary2"
@@ -299,7 +298,7 @@
 					<div class="clearfix visible-md-block"></div>
 					<div class="col-md-4 col-sm-6 col-xs-6 col-xxs-12 work-item">
 						<a href="work.html">
-							<img src="images/lab_perla.jpg" alt="Free HTML5 Website Template by FreeHTML5.co" class="img-responsive">
+<a href="detalle_labial.php"><img src="images/lab_perla.jpg" alt="Free HTML5 Website Template by FreeHTML5.co" class="img-responsive"></a>
 							<h3 class="fh5co-work-title">Labial en lapiz perla</h3>
 							<h5 class= "card-title">$110.00</h5>
 							<button class="btn btn-primary2"
@@ -313,7 +312,7 @@
 					<div class="clearfix visible-md-block"></div>
 					<div class="col-md-4 col-sm-6 col-xs-6 col-xxs-12 work-item">
 						<a href="work.html">
-							<img src="images/lab_madera.jpg" alt="Free HTML5 Website Template by FreeHTML5.co" class="img-responsive">
+<a href="detalle_labial.php"><img src="images/lab_madera.jpg" alt="Free HTML5 Website Template by FreeHTML5.co" class="img-responsive"></a>
 							<h3 class="fh5co-work-title">Labial en lapiz madera</h3>
 							<h5 class= "card-title">$110.00</h5>
 							<button class="btn btn-primary2"
@@ -327,7 +326,7 @@
 					<div class="clearfix visible-md-block"></div>
 					<div class="col-md-4 col-sm-6 col-xs-6 col-xxs-12 work-item">
 						<a href="work.html">
-							<img src="images/lab_lavanda.jpg" alt="Free HTML5 Website Template by FreeHTML5.co" class="img-responsive">
+<a href="detalle_labial.php"><img src="images/lab_lavanda.jpg" alt="Free HTML5 Website Template by FreeHTML5.co" class="img-responsive"></a>
 							<h3 class="fh5co-work-title">Labial en lapiz lavanda</h3>
 							<h5 class= "card-title">$110.00</h5>
 							<button class="btn btn-primary2"

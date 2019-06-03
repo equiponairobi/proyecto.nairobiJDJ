@@ -92,7 +92,7 @@
 				
 				<div class="row">
 					<div class="col-md-4">
-						<h1>Politicas</h1>
+					
 					</div>
                 </div>
                 <div class="fh5co-text">
@@ -100,6 +100,14 @@
 								<p>© Nairobi 2019 Ciudad de México. Reservados todos los derechos. No se permite la reproducción total o parcial, ni su incorporación a un sistema informático, ni su transmisión en cualquier forma o por cualquier medio (electrónico, mecánico, fotocopia, grabación u otros) sin 
 autorización previa y por escrito de los titulares del copyright. La infracción de dichos
  derechos puede constituir un delito contra la propiedad intelectual.
+</br> 
+</br>
+Hernandez Galicia Donaji
+</br>
+Morales Rodriguez Jessica
+</br>
+Orozco Rod Jorge Sergio
+</br>
                             </p> 
 	</div>
 				
